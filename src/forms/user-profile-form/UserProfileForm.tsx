@@ -51,7 +51,7 @@ const UserProfileForm = ({ onSave, isLoading, currentUser }: Props) => {
         <div>
           <h2 className="text-2xl font-bold ">User Profile Form</h2>
           <FormDescription>
-            View and chnage your profile information here
+            View and change your profile information here
           </FormDescription>
         </div>
         <FormField
