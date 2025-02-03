@@ -19,7 +19,7 @@ export const HomePage = () => {
           Tuck into a takeway today
         </h1>
         <span className="text-xl">Food is just a click away!</span>
-        <SearchBar onSubmit={handleSearchSubmit} placeholder="Search by City or Town" searchQuery=""></SearchBar>
+        <SearchBar onSubmit={handleSearchSubmit} placeholder="Search by City or Town"></SearchBar>
       </div>
       <div className="grid md:grid-cols-2 gap-5">
         <img src={landingPage} />
